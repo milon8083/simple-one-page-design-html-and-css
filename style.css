@@ -1,0 +1,113 @@
+.main{
+width:1000px;
+margin:0px auto;
+padding:0px;
+
+}
+.header{
+background-color:rgb(0,97,71);
+color:white;
+text-align:center;
+
+}
+.nav{
+    position:sticky;
+    top:0px;
+	//padding:0px auto;
+	background-color:rgb(0,50,50);
+   
+   // border: 2px solid #4CAF50;
+
+}
+.nav ul{ 
+display:block;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 100%;
+
+}
+.nav ul li{
+display:inline;
+border-right:1px solid tomato;
+float:left;
+}
+.nav ul li a{ 
+text-decoration:none;
+font-size:20px;
+padding:10px 15px;
+color:rgb(255, 255, 71);
+width:100px;
+display: block;
+text-align: center;
+    
+}
+.nav ul li a:hover{background-color:white;
+color:green;
+
+}
+.clear{overflow:hidden;}
+.contain{
+
+}
+.leftcontain{
+  float:left;
+  width:75%;
+}
+.leftcontain p{ text-align:justify;}
+.rightcontain{
+width:25%;
+float:right;
+
+}
+@media screen and (max-width: 900px) {
+    .nav ul li{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .nav ul li a {
+        float: left;
+        padding: 15px;
+		width:auto;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .nav ul li{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+	
+	.nav ul li a {
+        text-align: center;
+        float: none;
+		
+    }
+}
+
+
+.rightTop{
+
+}
+.rightTop ul{display:block;}
+.rightTop ul li {border-bottom:2px solid red; list-style:none;}
+.rightTop ul li a{ font-size:25px;text-decoration:none;}
+.rightTop ul li a:hover{}
+
+.rightBottom{
+
+}
+.rightBottom h2{background-color:rgb(0,97,71);
+color:white;
+padding-left:30px;
+margin-left:20px;
+}
+.footer{
+background-color:rgb(0,97,71);
+color:white;
+
+}
